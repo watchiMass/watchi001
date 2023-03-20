@@ -31,6 +31,8 @@ class DLinkListTest {
 
         assertEquals(temp1.toString(), dLinkList.toString());
         System.out.println(dLinkList.toString());
+        System.out.println(dLinkList.numOfElem());
+        System.out.println(dLinkList.getElement());
     }
 
     /**
@@ -40,17 +42,17 @@ class DLinkListTest {
     void removeFirstTest(){
         DLinkList<Integer> dLinkList = new DLinkList<>();
 
-        //given
+//given
         dLinkList.addFirst(25);
         dLinkList.addFirst(26);
         dLinkList.addFirst(27);
 
-        //when
-       dLinkList.removeFirst();
+//when
+        dLinkList.removeFirst();
         dLinkList.removeFirst();
         List<Integer> temp1 = new ArrayList<>(List.of( 25));
 
-        //then
+//then
         assertEquals(temp1.toString(), dLinkList.toString());
         System.out.println(dLinkList.toString());
     }

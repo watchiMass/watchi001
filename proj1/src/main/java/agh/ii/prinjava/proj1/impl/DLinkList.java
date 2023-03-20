@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 
 /**
  *This class represent a dynamic list (doubly linked list)
- * @param <E>
+ * @param <E> Doubly link list
  **@author Massima Thedojeriel G3
  */
 public class DLinkList<E> {
@@ -12,6 +12,10 @@ public class DLinkList<E> {
 
     private Node<E> head;
     private Node<E> last;
+
+    /**
+     * Constructor without parameter
+     */
     public DLinkList() {}
 
     /**
@@ -38,18 +42,26 @@ public class DLinkList<E> {
 
         }
     }
-    private  Node<E> list ;
+    private Node<E> list ;
+
+    /**
+     * this method allow us to return fist element in the list
+     * @return E
+     */
+    public E getElement(){
+        return (E) head.elem;
+    }
 
 
     /**
      * This method allows us to add an element at the top of the list
-     * @param e
+     * @param e element to add to the list
      */
     public void addFirst(E e) {
         Node<E> newNode = new Node<>(e);
         if (head == null) {
-          head = newNode ;
-          last = newNode ;
+            head = newNode ;
+            last = newNode ;
         }
         else{
             newNode.next= head;
@@ -60,20 +72,20 @@ public class DLinkList<E> {
 
     /**
      * this method allows us to add an element at the end of the list
-     * @param e
+     * @param e element to add to the list
      */
-    public void  addLast(E e){
+    public void addLast(E e){
 
-           Node newNode = new Node<E>(e);
-           if(last==null){
-              head= newNode;
-              last= newNode;
-           }
-           else{
-               newNode.prev=last;
-               last.next= newNode;
-               last= newNode;
-           }
+        Node newNode = new Node<E>(e);
+        if(last==null){
+            head= newNode;
+            last= newNode;
+        }
+        else{
+            newNode.prev=last;
+            last.next= newNode;
+            last= newNode;
+        }
 
     }
 
@@ -109,8 +121,22 @@ public class DLinkList<E> {
     }
 
     /**
+     * this element return size of the list
+     * @return int num
+     */
+    public int numOfElem(){
+        Node tmp= head;
+         int num=0;
+        while (tmp!= null){
+          num++;
+          tmp=tmp.next;
+        }
+        return num;
+    }
+
+    /**
      * This method allow us to display all the elements of the list
-     * as a charactere string
+     * as a character string
      * @return table of all the elements in our list
      */
     @Override
@@ -129,6 +155,3 @@ public class DLinkList<E> {
         return sb.toString();
     }
 }
-
-
-
