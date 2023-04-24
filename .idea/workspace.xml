@@ -5,32 +5,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4df9ddd-ef4b-443e-8adf-5128d86867ae" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/lab04/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_01/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_02/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_02/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_02/impl/DLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_02/impl/MyQueueDLLBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/exc04_02/impl/MyStackDLLBImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/main/java/agh/ii/prinjava/lab04/lst04_06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/test/java/agh/ii/prinjava/lab04/exc04_01/PairTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/test/java/agh/ii/prinjava/lab04/exc04_02/impl/DLinkListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/test/java/agh/ii/prinjava/lab04/exc04_02/impl/MyQueueDLLBImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab04/src/test/java/agh/ii/prinjava/lab04/exc04_02/impl/MyStackDLLBImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/datasources/alice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/datasources/imdb_top250.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/dal/Alice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/dal/ImdbTop250.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_07/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/lst07_08/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab07/src/main/java/agh/ii/prinjava/lab07/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab00/lst00_01/Calc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab00/lst00_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_01/HelloEncapsulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_02/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_03/Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_03/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_04/HelloStatic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_04/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_05/HelloObjectInit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_05/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_06/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_07/HelloFactoryMeth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_07/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_08/EagerSingleton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_08/LazySingleton.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_08/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_09/HelloImmutable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_09/HelloJavaRecord.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_09/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_10/DemoClass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_10/HashCodeOK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_10/HashCodeProblem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab01/lst01_10/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/exc02_01/impl/ArrayBasedImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/exc02_01/impl/LinkedListBasedImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_02/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_03/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_04/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_05/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_06/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_07/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_08/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_09/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_10/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab02/lst02_11/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/exc03_01/impl/LinkedListBasedImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_02/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_03/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_04/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_05/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_06/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_07/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_08/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_09/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab03/lst03_10/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/exc04_02/impl/DLinkList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_02/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_03/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_04/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_05/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab04/lst04_06/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab05/lst05_01/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/lab05/lst05_02/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/MyQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/MyStack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/impl/DLinkList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/impl/MyQueueDLLBImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/impl/MyStackDLLBImpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/impl/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/impl/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/agh/ii/prinjava/proj1/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/script-dir/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1/src/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/datasources/imdb_top250.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/src/main/java/agh/ii/prinjava/proj2/PlayWithMovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/src/main/java/agh/ii/prinjava/proj2/dal/ImdbTop250.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/src/main/java/agh/ii/prinjava/proj2/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/src/main/java/agh/ii/prinjava/proj2/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj2/src/test/java/agh/ii/prinjava/proj2/PlayWithMoviesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/allclasses-index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/jquery-ui.overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/jquery-ui.overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/module-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/module-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/DLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/DLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/MyQueueDLLBImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/MyQueueDLLBImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/MyStackDLLBImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/main/java/agh/ii/prinjava/proj1/impl/MyStackDLLBImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/DLinkListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/DLinkListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/MyQueueDLLBImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/MyQueueDLLBImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/MyStackDLLBImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/proj1/src/test/java/agh/ii/prinjava/proj1/impl/MyStackDLLBImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj1/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +153,15 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/proj2">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="programming-in-java" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="programming-in-java" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="programming-in-java" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -105,6 +203,9 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -117,8 +218,8 @@
       <recent name="agh.iiprinjava.lab00.lst00_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DLinkListTest.removeFirstTest">
-    <configuration name="DLinkListTest.addFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PlayWithMoviesTest">
+    <configuration name="PlayWithMoviesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,9 +230,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":proj1:test" />
+            <option value=":proj2:test" />
             <option value="--tests" />
-            <option value="&quot;agh.ii.prinjava.proj1.impl.DLinkListTest.addFirstTest&quot;" />
+            <option value="&quot;agh.ii.prinjava.proj2.PlayWithMoviesTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -141,7 +242,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="DLinkListTest.removeFirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayWithMoviesTest.testEx07" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,9 +253,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":proj1:test" />
+            <option value=":proj2:test" />
             <option value="--tests" />
-            <option value="&quot;agh.ii.prinjava.proj1.impl.DLinkListTest.removeFirstTest&quot;" />
+            <option value="&quot;agh.ii.prinjava.proj2.PlayWithMoviesTest.testEx07&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,7 +265,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PairTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayWithMoviesTest.testEx08" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -175,9 +276,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":lab04:test" />
+            <option value=":proj2:test" />
             <option value="--tests" />
-            <option value="&quot;agh.ii.prinjava.lab04.exc04_01.PairTest.test1&quot;" />
+            <option value="&quot;agh.ii.prinjava.proj2.PlayWithMoviesTest.testEx08&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,20 +288,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PairTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayWithMoviesTest.testEx09" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":lab04:test" />
+            <option value=":proj2:test" />
             <option value="--tests" />
-            <option value="&quot;agh.ii.prinjava.lab04.exc04_01.PairTest.test2&quot;" />
+            <option value="&quot;agh.ii.prinjava.proj2.PlayWithMoviesTest.testEx09&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,20 +311,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PairTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PlayWithMoviesTest.testEx10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":lab04:test" />
+            <option value=":proj2:test" />
             <option value="--tests" />
-            <option value="&quot;agh.ii.prinjava.lab04.exc04_01.PairTest.test3&quot;" />
+            <option value="&quot;agh.ii.prinjava.proj2.PlayWithMoviesTest.testEx10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -235,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DLinkListTest.removeFirstTest" />
-        <item itemvalue="Gradle.DLinkListTest.addFirstTest" />
-        <item itemvalue="Gradle.PairTest.test3" />
-        <item itemvalue="Gradle.PairTest.test2" />
-        <item itemvalue="Gradle.PairTest.test1" />
+        <item itemvalue="Gradle.PlayWithMoviesTest" />
+        <item itemvalue="Gradle.PlayWithMoviesTest.testEx09" />
+        <item itemvalue="Gradle.PlayWithMoviesTest.testEx10" />
+        <item itemvalue="Gradle.PlayWithMoviesTest.testEx08" />
+        <item itemvalue="Gradle.PlayWithMoviesTest.testEx07" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679257739225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1679331398705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679331398705</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

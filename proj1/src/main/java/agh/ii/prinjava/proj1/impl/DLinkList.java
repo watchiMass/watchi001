@@ -3,9 +3,10 @@ package agh.ii.prinjava.proj1.impl;
 import java.util.NoSuchElementException;
 
 /**
- *This class represent a dynamic list (doubly linked list)
+ * This class represent a dynamic list (doubly linked list)
+ *
  * @param <E> Doubly link list
- **@author Massima Thedojeriel G3
+ * @author Massima Thedojeriel G3
  */
 public class DLinkList<E> {
 
@@ -16,10 +17,12 @@ public class DLinkList<E> {
     /**
      * Constructor without parameter
      */
-    public DLinkList() {}
+    public DLinkList() {
+    }
 
     /**
      * This nested class allows us to create first links of our list
+     *
      * @param <T>
      */
     private static class Node<T> {
@@ -29,62 +32,65 @@ public class DLinkList<E> {
 
         /**
          * this is the one-parameter constructor of Nodes
+         *
          * @param t
          */
-        public Node(T t){
+        public Node(T t) {
             this.elem = t;
         }
 
         /**
          * this is the default Node constructor
          */
-        public Node(){
+        public Node() {
 
         }
     }
-    private Node<E> list ;
+
+    private Node<E> list;
 
     /**
      * this method allow us to return fist element in the list
+     *
      * @return E
      */
-    public E getElement(){
+    public E getElement() {
         return (E) head.elem;
     }
 
 
     /**
      * This method allows us to add an element at the top of the list
+     *
      * @param e element to add to the list
      */
     public void addFirst(E e) {
         Node<E> newNode = new Node<>(e);
         if (head == null) {
-            head = newNode ;
-            last = newNode ;
-        }
-        else{
-            newNode.next= head;
-            head.prev= newNode;
+            head = newNode;
+            last = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
             head = newNode;
         }
     }
 
     /**
      * this method allows us to add an element at the end of the list
+     *
      * @param e element to add to the list
      */
-    public void addLast(E e){
+    public void addLast(E e) {
 
-        Node newNode = new Node<E>(e);
-        if(last==null){
-            head= newNode;
-            last= newNode;
-        }
-        else{
-            newNode.prev=last;
-            last.next= newNode;
-            last= newNode;
+        var newNode = new Node<E>(e);
+        if (last == null) {
+            head = newNode;
+            last = newNode;
+        } else {
+            newNode.prev = last;
+            last.next = newNode;
+            last = newNode;
         }
 
     }
@@ -92,15 +98,14 @@ public class DLinkList<E> {
     /**
      * This method allows us to delete an element at the top of the list
      */
-    public void removeFirst(){
-        if(head == null){
+    public void removeFirst() {
+        if (head == null) {
             throw new NoSuchElementException();
-        }
-        else{
-            Node<E> temp = new Node();
-            temp= head;
+        } else {
+            Node<E> temp = new Node<>();
+            temp = head;
             head = temp.next;
-            if(head != null) {
+            if (head != null) {
                 head.prev = null;
             }
         }
@@ -122,14 +127,15 @@ public class DLinkList<E> {
 
     /**
      * this element return size of the list
+     *
      * @return int num
      */
-    public int numOfElem(){
-        Node tmp= head;
-         int num=0;
-        while (tmp!= null){
-          num++;
-          tmp=tmp.next;
+    public int numOfElem() {
+        Node tmp = head;
+        int num = 0;
+        while (tmp != null) {
+            num++;
+            tmp = tmp.next;
         }
         return num;
     }
@@ -137,6 +143,7 @@ public class DLinkList<E> {
     /**
      * This method allow us to display all the elements of the list
      * as a character string
+     *
      * @return table of all the elements in our list
      */
     @Override
